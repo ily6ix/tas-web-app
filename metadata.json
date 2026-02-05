@@ -1,0 +1,8 @@
+{
+  "name": "TA's Beauty Lounge",
+  "description": "A luxury beauty experience offering premium salon services, personalized AI beauty consultations, and seamless online booking.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

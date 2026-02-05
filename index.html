@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TA's Beauty Lounge | Luxury Beauty Experience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #fffafb;
+      }
+      h1, h2, h3, h4, .serif {
+        font-family: 'Playfair Display', serif;
+      }
+      .pink-text {
+        color: #ec4899;
+      }
+      .pink-bg {
+        background-color: #ec4899;
+      }
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+      /* Custom scrollbar for a premium feel */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #fffafb;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #fbcfe8;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #f472b6;
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://esm.sh/react-dom@19.2.4/",
+        "react-dom": "https://esm.sh/react-dom@19.2.4",
+        "@google/genai": "https://esm.sh/@google/genai@1.40.0",
+        "react/": "https://esm.sh/react@19.2.4/",
+        "react": "https://esm.sh/react@19.2.4",
+        "framer-motion": "https://esm.sh/framer-motion@12.31.1",
+        "swiper/": "https://esm.sh/swiper@12.1.0/",
+        "lucide-react": "https://esm.sh/lucide-react@0.463.0"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+  </body>
+</html>
